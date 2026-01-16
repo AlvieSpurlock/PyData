@@ -73,7 +73,7 @@ This keeps responsibilities clean and the system easy to extend.
 
 
 #### Input dictionary:
-```txt
+```python
 {
     "Name": "Potion",
     "Heals": 25,
@@ -106,7 +106,7 @@ Type: Consumable<br>
 [---[==]---]
 ```
 ### Class Structure
-```txt
+```python
 class PyData:
 
     def __init__(self, dataName, data):
@@ -133,7 +133,7 @@ class PyData:
             dataFile.write(data)
 ```
 ### Usage Example
-```txt
+```python
 items = PyData("Items", {
     "Name": "Potion",
     "Heals": 25,
